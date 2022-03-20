@@ -1,0 +1,267 @@
+body{
+    background:url(https://i2.wp.com/files.123freevectors.com/wp-content/original/130882-abstract-blue-polygon-pattern-background-illustration.jpg?w=800&q=95);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+
+#navigation-bar{
+    background-color: #041562;
+    color: #fff;
+    
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar{
+    padding-bottom: 2rem;
+}
+
+.nav-item{
+    padding: 0 15px;
+}
+
+.navi{
+    margin-left: 400px;
+}
+.container-fluid{
+    padding: 2% 15% 0;
+}
+
+
+
+#home{
+    color: #fff;
+    text-align: center;
+}
+.bio{
+    padding-top: 50px;
+    font-size: 45px;
+}
+.start{
+    padding-top: 5%;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 1.2;
+    font-family: 'Brush Script M7',cursive;
+}
+.des{
+    font-size: 2.5rem;
+    
+}
+.hi{ padding-top: 20px;
+    margin: 0;
+    font-size: 20px;
+    
+}
+.photo{
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    top:175px;
+}
+.btns{
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    height: 50px;
+    width: 150px;
+}
+/* This section is about styling our about section for creating good and attractive
+bio and introduction page */
+
+#about{
+    
+}
+.image{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    top:350px;
+}
+.abt{
+    margin: 200px 0 100px;
+    
+}
+.story{
+    padding-top: 60px;
+    
+}
+.head1{
+    font-size:xx-large;
+    font-weight: bolder;
+    line-height: 1.8;
+    font-family: 'Papyrus',fantasy;
+}
+.head2{
+    font-size: xx-large;
+    font-weight: bolder;
+    line-height: 1.4;
+    font-family: 'Papyrus',fantasy;
+
+}
+.para1{
+    padding-top: 10px;
+    font-size: x-large;
+    line-height: 1.5;
+    color: black ;
+    font-family: cursive;
+}
+.cvv{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Papyrus',fantasy;
+    line-height: 1.4;
+
+}
+
+
+
+/* this is the section for styling portfolio for making it attractive */
+
+#portfolio{
+    text-align: center;
+    padding: 150px;
+    
+}
+
+.row{
+    margin: 5% 0 2%;
+}
+.port{
+    height: 300px;
+    width: 300px;
+}
+/* this the section for styling blogs and making it cool and professional */
+
+#blogs{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.row2{
+    margin: 5% 200px 2%;
+}
+.colmn2{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.fas{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.jj{
+    padding-top: 10px;
+    font-size: x-large;
+    line-height: 1.5;
+    color: black ;
+    font-family: cursive;
+    
+}
+/* this section is for styling contact page */
+#contact{
+    text-align: center;
+    margin-top: 70px;
+}
+.cont{
+    background-color:#2764d6;
+    color: #fff;
+    padding: 5% 0 5%;
+    margin: 5% 0 7%;
+}
+.fab{
+    margin: 10px ;
+}
+
+#footer{
+    background-color: #1d7fb8;
+    text-align: center;
+}
+.foot{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0px;
+
+}
+.fot{
+    padding: 5% 0 5%;
+}
+
+.content{
+    border-collapse: collapse;
+    margin: 25px;
+    font-size:0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0 , 0,  0 ,0.15);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.content thead tr{
+    background-color:purple;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+
+}
+.content th,
+.content td{
+    padding: 12px 15px;
+}
+.content tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.content tbody tr:nth-of-type(odd){
+    background-color: #f3f3f3;
+}
+.content tbody tr:last-of-type{
+    border-bottom: 2px solid purple;
+}
+
+
+@media (max-width: 500px){
+    .navi{
+        margin: 0;
+    }
+    .start{
+        font-size: 40px;
+    }
+    .des{
+        font-size: 2rem;
+    }
+    .btns{
+        text-align: center;
+        height: 50px;
+        width: 110px;
+        margin-right: 0;
+    }
+    .photo{
+        width: 400px;
+        height: 300px;
+
+    }
+    #home{height: max-content;}
+    
+    #portfolio{
+        padding: 0px;
+    }
+    .row2{
+        margin: 0px;
+    }
+    .colmn2{
+        text-align: left;
+    }
+}
