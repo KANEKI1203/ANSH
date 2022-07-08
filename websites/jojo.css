@@ -231,6 +231,51 @@ bio and introduction page */
     border-bottom: 2px solid purple;
 }
 
+.content thead tr{
+    background-color:purple;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+
+}
+.content2{
+    border-collapse: collapse;
+    margin: 50px;
+    font-size:0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0 , 0,  0 ,0.15);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.content2 thead tr{
+    background-color:purple;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.content2 th,
+.content2 td{
+    padding: 12px 15px;
+}
+.content2 tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content2 tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.content2 tbody tr:nth-of-type(odd){
+    background-color: #f3f3f3;
+}
+.content2 tbody tr:last-of-type{
+    border-bottom: 2px solid purple;
+}
+
 
 @media (max-width: 500px){
     .navi{
