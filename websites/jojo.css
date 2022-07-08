@@ -238,7 +238,7 @@ bio and introduction page */
     font-weight: bold;
 
 }
-.content2{
+.college{
     border-collapse: collapse;
     margin: 50px;
     font-size:0.9em;
@@ -251,7 +251,7 @@ bio and introduction page */
 
 }
 
-.content2 thead tr{
+.college thead tr{
     background-color:purple;
     color: white;
     text-align: left;
@@ -259,20 +259,20 @@ bio and introduction page */
 
 }
 
-.content2 th,
-.content2 td{
+.college th,
+.college td{
     padding: 12px 15px;
 }
-.content2 tbody tr{
+.college tbody tr{
     border-bottom: 1px solid #dddddd;
 }
-.content2 tbody tr:nth-of-type(even){
+.college tbody tr:nth-of-type(even){
     background-color: #f3f3f3;
 }
-.content2 tbody tr:nth-of-type(odd){
+.college tbody tr:nth-of-type(odd){
     background-color: #f3f3f3;
 }
-.content2 tbody tr:last-of-type{
+.college tbody tr:last-of-type{
     border-bottom: 2px solid purple;
 }
 
