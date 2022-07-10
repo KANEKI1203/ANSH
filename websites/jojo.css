@@ -140,6 +140,19 @@ bio and introduction page */
     width: 300px;
 }
 /* this the section for styling blogs and making it cool and professional */
+#achievements{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.xar{
+    padding-top: 10px;
+    font-size: x-large;
+    line-height: 1.5;
+    color: #FFFFFF ;
+    font-family: cursive;
+    
+}
+
 
 #blogs{
     text-align: center;
